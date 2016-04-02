@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Searched for query...</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+      <div>
+        <ul>
+          <% for(var i=0; i<urls.length; i++) {%>
+            <li><h3><a href="<%=  urls[i].url  %>"><%= urls[i].title  %></a></h3></li>
+          <% } %>
+        </ul>
+      </div>
+
+  </body>
+</html>

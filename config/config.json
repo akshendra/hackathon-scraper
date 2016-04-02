@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "hack",
+    "password": "hack",
+    "database": "hackathon",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "hack",
+    "password": "hack",
+    "database": "hackathon",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "hack",
+    "password": "hack",
+    "database": "hackathon",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

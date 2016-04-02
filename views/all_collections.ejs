@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Scrapper | Collections</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    
+	<div class="main">
+		
+		<ul>
+			<% for (var i = 0; i < collections.length; ++i) { %>
+			<li> <a href="/collection/<%= collections[i].id %>" > <%= collections[i].title %> </a> </li>
+			<% } %>
+		</ul>
+
+	</div>
+
+  </body>
+</html>
